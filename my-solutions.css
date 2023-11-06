@@ -14,7 +14,7 @@
 /*Esercizio 3*/
 .ex-3-square:hover {
     transition: 2s;
-    border-radius: 25%;
+    border-radius: 50%;
 }
 
 /*Esercizio 4*/
@@ -35,4 +35,41 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+
+/*Esercizio 6*/
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/*Esercizio 7*/
+.ex-7-img:hover {
+    transition: 2s;
+    filter: hue-rotate(90deg) 
+            blur(2px);
+}
+
+/*Esercizio 8*/
+.ex-8-img:hover {
+    transition: 2s;
+    border-radius: 25px;
+    filter: hue-rotate(90deg) 
+            blur(2px);
+}
+/*Esercizio 9*/
+.ex-9-img:hover {
+    transition: 2s;
+    border-radius: 25px;
+    transform: scale(1.6);
+    filter: hue-rotate(90deg) 
+            blur(2px);
+}
+
+/*Esercizio 10*/
+
+/*Esercizio 11*/
+
+/*Esercizio 12*/
+
+/*Esercizio 13*/
+
 
