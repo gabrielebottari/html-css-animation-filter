@@ -65,8 +65,31 @@
 }
 
 /*Esercizio 10*/
+.ex-10-icon {
+    animation: rotate 0.3s linear reverse infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(360deg);
+    }
+}
 
 /*Esercizio 11*/
+.ex-11-icon:hover {
+    animation: partialrotate 1s linear;
+}
+@keyframes partialrotate {
+    0% {
+        transform: rotate(0);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
 
 /*Esercizio 12*/
 
