@@ -103,7 +103,7 @@
 }
 
 /*Esercizio 12*/
-.ex-12-button .ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white {
     animation: topwhite 2s ease-in-out infinite;
 }
 @keyframes topwhite {
@@ -118,7 +118,7 @@
     }
 }
 
-.ex-12-button .ex-12-bottom-white {
+.ex-12-button:hover .ex-12-bottom-white {
     animation: bottomwhite 2s ease-in-out infinite;
 }
 @keyframes bottomwhite {
@@ -134,7 +134,7 @@
 }
 
 /*Esercizio 13*/
-.ex-13-button .ex-13-top-white {
+.ex-13-button:hover .ex-13-top-white {
     animation: topwhitecomplete 2s linear infinite;
 }
 @keyframes topwhitecomplete {
@@ -164,7 +164,7 @@
     }
 }
 
-.ex-13-button .ex-13-bottom-white {
+.ex-13-button:hover .ex-13-bottom-white {
     animation: bottomwhitecomplete 2s linear infinite;
 }
 @keyframes bottomwhitecomplete {
