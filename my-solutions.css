@@ -1,25 +1,32 @@
 /*Esercizio 1*/
-
-.ex-1-square:hover {
+.ex-1-square {
     transition: 2s;
+}
+.ex-1-square:hover {
     background: red;
 }
 
 /*Esercizio 2*/
-.ex-2-square:active {
+.ex-2-square {
     transition: 2s;
+}
+.ex-2-square:active {
     width: 100%;
 }
 
 /*Esercizio 3*/
+.ex-3-square {
+    transition: 1s;
+}
 .ex-3-square:hover {
-    transition: 2s;
     border-radius: 50%;
 }
 
 /*Esercizio 4*/
-.ex-4-square:hover {
+.ex-4-square {
     transition: 2s;
+}
+.ex-4-square:hover {
     opacity: 0;
 }
 
@@ -49,15 +56,19 @@
 }
 
 /*Esercizio 8*/
-.ex-8-img:hover {
+.ex-8-img {
     transition: 2s;
+}
+.ex-8-img:hover {
     border-radius: 25px;
     filter: hue-rotate(90deg) 
             blur(2px);
 }
 /*Esercizio 9*/
-.ex-9-img:hover {
+.ex-9-img {
     transition: 2s;
+}
+.ex-9-img:hover {
     border-radius: 25px;
     transform: scale(1.6);
     filter: hue-rotate(90deg) 
@@ -92,8 +103,8 @@
 }
 
 /*Esercizio 12*/
-.ex-12-button:hover .ex-12-top-white {
-    animation: topwhite 2s ease-in-out;
+.ex-12-button .ex-12-top-white {
+    animation: topwhite 2s ease-in-out infinite;
 }
 @keyframes topwhite {
     0% {
@@ -107,8 +118,8 @@
     }
 }
 
-.ex-12-button:hover .ex-12-bottom-white {
-    animation: bottomwhite 2s ease-in-out;
+.ex-12-button .ex-12-bottom-white {
+    animation: bottomwhite 2s ease-in-out infinite;
 }
 @keyframes bottomwhite {
     0% {
@@ -123,27 +134,27 @@
 }
 
 /*Esercizio 13*/
-.ex-13-button:hover .ex-13-top-white {
-    animation: topwhitecomplete 2s ease-in-out;
+.ex-13-button .ex-13-top-white {
+    animation: topwhitecomplete 2s linear infinite;
 }
 @keyframes topwhitecomplete {
     0% {
         left: 10%;
         top: -20px;
     }
-    20% {
+    25% {
         left: calc(100% - 20px);
         top: -20px;
     }
-    40% {
+    50% {
         left: calc(100% - 20px);
         top: 100%;
     }
-    60% {
+    75% {
         left: 0;
         top: 100%;
     }
-    80%{
+    90%{
         left:-20px;
         top:-20px;
     }
@@ -153,27 +164,27 @@
     }
 }
 
-.ex-13-button:hover .ex-13-bottom-white {
-    animation: bottomwhitecomplete 2s ease-in-out;
+.ex-13-button .ex-13-bottom-white {
+    animation: bottomwhitecomplete 2s linear infinite;
 }
 @keyframes bottomwhitecomplete {
     0% {
         bottom: -10px;
         right: 10%;
     }
-    20% {
+    25% {
         right: calc(100% - 40px);
         bottom: -10px;
     }
-    40% {
+    50% {
         right: calc(100% - 40px);
         bottom: 100%;
     }
-    60% {
+    75% {
         right: 0;
         bottom: 100%;
     }
-    80% {
+    90% {
         right: -20px;
         bottom: -10px;
     }
